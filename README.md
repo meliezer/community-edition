@@ -205,7 +205,14 @@ You are always welcome to check the code! ;)
 
 Help us translate Rambox on <https://crowdin.com/project/rambox/invite>.
 
-## [Install on Linux - Steps](https://github.com/ramboxapp/community-edition/wiki/Install-on-Linux)
+## [Install on Linux - Steps]
+
+For .deb/.rpm/.zip packages, go to https://github.com/ramboxapp/community-edition/releases and download the file.
+Zip package steps:
+Unzip downloaded file. Be sure to extract all the files inside a new folder called Rambox for example.
+In a Terminal, type: chmod +x rambox.
+Then, we have to install a library (probably missing) to allow tray icon. So type sudo apt-get install libappindicator1.
+Last, in the same Terminal type: ./rambox.
 
 ## [Contributing](./CONTRIBUTING.md)
 
